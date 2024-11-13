@@ -1,0 +1,75 @@
+Test plan document
+For
+E-commerce web application 
+Website- toc-g watches  
+1.	introduction:
+This test plan is for a web-based e-commerce platform accessible via desktop and mobile browsers. The application allows users to browse and purchase products, manage their accounts, view order history, and interact with customer support. To ensure the web application is user friendly, easy to use and compatible with different devices, and user is able to order products efficiently. To identify and resolve any issues in the website.
+2. Scope:
+•	Items to be tested:
+1.	Login 
+2.	Sign-up
+3.	Whishlist
+4.	Product cart
+5.	Search bar 
+•	Items not to be tested:
+1.	About us 
+2.	Reviews
+3. Approach:
+•	Unit testing will be done by developer and it will be approved by the development group leader. Testing will be done to check the working of modules or components separately.
+•	Compatibility testing will be done by developers to check if the website is compatible with various web browsers, different devices and operating systems.
+•	System / integration testing will be done to check if the modules are working properly together and producing desired results.
+•	Performance testing will be done to check if the website works under load or not with the help of load testing, stress testing speed testing 
+•	Acceptance testing will be done by the end user so that to ensure the website is working properly as per the requirements
+
+
+
+4. Module pass/fail criteria:
+•	Pass Criteria: All test cases must pass, with no unresolved critical defects.
+•	 Fail Criteria: Any critical defects or multiple high-priority defects that affect functionality or usability would fail the release.
+
+5. Suspension and resumption criteria 
+•	Suspension criteria:
+1.	When a defect is introduced that cannot allow further testing
+2.	Lack of testing resources like software of hardware.
+3.	Deadline is missed then the client will not accept the software.
+•	Resumption criteria:
+1.	When external dependent systems are available again.
+2.	When required bugs are fixed.
+3.	When the deadline is extended.
+6. roles and responsibilities:
+Mr. abc: senior software developer
+Mr. bcd: junior software developer
+Mr. pqr: senior tester
+Mr. xyz: manager
+7. Testing Environment:
+•	Devices:
+1.	Laptop
+2.	Pc
+3.	Mobile
+4.	Tablet
+•	Browers:
+1.	Safari
+2.	Chrome
+3.	Firefox
+4.	Edge
+•	Network:
+Stable internet connection
+
+
+
+8. Test deliverables:
+•	Test plan
+•	Test case
+•	Defect report
+•	Test summary report
+
+9.  staff and training need:
+•	Developer and tester must know how to use computer and how to access internet.
+•	Tester must know how to use testing tools like selenium.
+
+10. conclusion:
+This test plan provides a comprehensive overview of the testing activities required to ensure the quality and functionality of the E-commerce web application.
+
+
+
+

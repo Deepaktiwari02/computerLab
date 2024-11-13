@@ -1,0 +1,21 @@
+Black box testing 
+White box testing 
+Cyclomatic Complexity 
+Flow graph testing & flow graph notation 
+Boundary value analysis
+Equivalence class partitioning 
+Decision table based testing 
+Path Coverage , Branch Coverage , Statement Coverage 
+Advantages of test plans & test cases
+Advantages of defect tracking 
+Scope of Test cases & test plans
+
+
+
+OOAD
+
+activity
+class
+collaboration
+sequence
+usecase

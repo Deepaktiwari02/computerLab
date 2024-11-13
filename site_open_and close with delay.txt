@@ -1,0 +1,27 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class LaunchAndCloseWebsite {
+    public static void main(String[] args) {
+        // Set the path of the ChromeDriver executable
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\exam\\Downloads\\chromedriver-win64
+		(3)\\chromedriver-win64\\chromedriver.exe");
+
+        // Initialize WebDriver
+        WebDriver driver = new ChromeDriver();
+
+        try {
+            // Launch the website
+            driver.get("https://www.selenium.dev/");
+
+            // Hold for a few seconds
+            Thread.sleep(5000); // Sleeps for 5 seconds
+
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } finally {
+            // Close the browser
+            driver.quit();
+        }
+    }
+}
